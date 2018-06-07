@@ -206,20 +206,26 @@
               </div>
             </div>
             <div class="col-12 col-md-5">
-              <form class="sign_up-form" action="https://formspree.io/apply@codegrades.com" method="POST">
+              <form class="sign_up-form" action="https://formspree.io/tellmemore@codegrades.com" method="POST">
                 <div class="form-group">
-                  <input type="text" class="form-control name-input" id="input-name" placeholder="Name" name="name">
+                  <input type="text" class="form-control name-input" id="input-name" placeholder="Name" name="name" required="true">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control email-input" id="input-email" placeholder="Email" name="_reply_to">
+                  <input type="email" class="form-control email-input" id="input-email" placeholder="Email" name="_reply_to" required="true">
                 </div>
                 <div class="form-group">
-                  <select class="custom-select" name="interested_in">
+                  <select class="custom-select" name="interested_in" required="true">
                     <option disabled selected>I’m interested in…</option>
                     <option value="1">Taking Code Grades</option>
                     <option value="2">Teaching Code Grades</option>
                     <option value="3">Becoming a Code Mentor</option>
                   </select>
+                </div>
+                <div class="form-group">
+                  <input type="checkbox" class="custom-checkbox" id="input-gdpr-consent" name="gdpr-consent" required="true"/>
+                  <label for="input-gdpr-consent" class="custom-checkbox-label">I consent to you processing
+                  the data sent via this form in line with your
+                  <em><a href="/privacy.html">privacy policy</a></em>.</label>
                 </div>
                 <button type="submit" id="home-submit" class="btn btn-success">Sign up</button>
               </form>
@@ -238,7 +244,7 @@
           </div>
           <div class="col-12 col-lg-8">
             <ul class="item-list">
-              <li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li>
+              <!--li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li-->
               <li><a href="/privacy.html" id="footer-privacy">Privacy Policy</a></li>
               <li>CodeGrades © 2018</li>
             </ul>

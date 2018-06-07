@@ -513,6 +513,17 @@ ul:not([class]) li:before {
 	font-size: 30px;
 }
 
+.form-section .custom-checkbox {
+    width: auto;
+    display: inline;
+    transform: scale(1.2);
+}
+
+.form-section .custom-checkbox-label {
+    position: relative !important;
+    display: inline;
+}
+
 #footer {
 	background: #146ec3;
 	color: #fff;
@@ -1067,4 +1078,5 @@ body {
 		left: 25px;
 	}
 }
-
+
+
