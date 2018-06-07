@@ -516,7 +516,6 @@ ul:not([class]) li:before {
 .form-section .custom-checkbox {
     width: auto;
     display: inline;
-    transform: scale(1.2);
 }
 
 .form-section .custom-checkbox-label {
