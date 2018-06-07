@@ -521,6 +521,7 @@ ul:not([class]) li:before {
 .form-section .custom-checkbox-label {
     position: relative !important;
     display: inline;
+    font-size: 18px;
 }
 
 #footer {
