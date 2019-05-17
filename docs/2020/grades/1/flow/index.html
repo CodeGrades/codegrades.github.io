@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grade 1: Simple Program Control Flow &#8212; CodeGrades 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/codegrades.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><span><img src="../../../../_static/logo.svg"></span>
+           </a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="/docs/2020">Contents</a></li>
+                <li><a href="/docs/2020/grades">Grades</a></li>
+                <li><a href="/docs/2020/mentors">Mentors</a></li>
+                <li><a href="/docs/2020/outcomes">Outcomes</a></li>
+            
+            
+              
+                
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="grade-1-simple-program-control-flow">
+<h1><a class="reference external" href="/docs/2020/grades/1">Grade 1</a>: Simple Program Control Flow<a class="headerlink" href="#grade-1-simple-program-control-flow" title="Permalink to this headline">¶</a></h1>
+<p>Just like humans, Python programs often need to decide what to do (given a
+particular situation) or repeat instructions any number of times.</p>
+<p>For instance, before leaving home in the morning you may check the weather and
+decide, “if it’s forecast rain, take an umbrella or else, if it’s going to be
+sunny take sunglasses, otherwise just wear a coat”. You are describing a set
+of potential conditions which might occur and selecting an outcome depending on
+which condition actually turns out to be true. In programming, this sort
+of check is called a <strong>conditional</strong>.</p>
+<p>Alternatively, on your journey to work you probably encounter traffic lights
+and obey the instruction, “while the lights are red, stop”. You’re constantly
+checking the status of some situation and acting in a certain way only while
+this situation applies. In other words you’re repeatedly asking yourself, “is
+the traffic light red?” while you’re in front of the traffic light. In
+programming, this sort of thing is called a <strong>while loop</strong>.</p>
+<p>Finally, if you have to go to a meeting with five colleagues you probably need
+to circulate an agenda before hand. So you think to yourself, “for each
+colleague, I need to find their email address and send them the meeting
+agenda”. You’re doing the same activity (sharing an agenda) for each attendee
+of the meeting. In programming, this sort of thing is called a <strong>for loop</strong>.</p>
+<p>We say that conditionals, while loops and for loops control the flow of the
+program. Unlike humans reading a page of text (like this one), a program
+doesn’t just start at the beginning, act on each line one after the other
+and finish at the very end. Sometimes a program needs to check if something
+is <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code> (is it raining?) and only execute certain instructions
+depending on the outcome of this check. Other times the program needs to keep
+executing the same lines of code while something is <code class="docutils literal notranslate"><span class="pre">True</span></code> (is the traffic
+light on red?). Finally, a program may need to execute the same lines of code
+for each item in a collection (for each attendee in a meeting). As a result the
+order of execution of lines of code can jump around as certain lines are
+ignored or repeated: the flow of the program is changed from a linear step
+wise set of instructions from top to bottom, to something more complicated and
+useful.</p>
+<p>Some Python examples will demonstrate this in practice.</p>
+<p>When we use conditionals in English we’d say something like “<strong>if</strong> something
+or other is true, do this sort of thing; <strong>else</strong> do some other sort of thing”.
+For instance, “<strong>if</strong> it is raining, take an umbrella; <strong>else</strong> just wear a
+coat”.</p>
+<p>It’s remarkably similar in Python:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">is_raining</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">if</span> <span class="n">is_raining</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Remember your brolly!&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Just wear a coat!&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In the example above, we assign <code class="docutils literal notranslate"><span class="pre">is_raining</span></code> as <code class="docutils literal notranslate"><span class="pre">True</span></code> (I just looked
+out my window, and it is, indeed, raining). My point is, <code class="docutils literal notranslate"><span class="pre">is_raining</span></code> is a
+sort of flag to tell me what the current rain situation is. The most important
+thing to remember is this flag can only be <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code>. It’s a bit
+like a yes/no question: “Is it raining outside?” cannot be answered correctly
+by saying “42”. It has to be yes (<code class="docutils literal notranslate"><span class="pre">True</span></code>) or no (<code class="docutils literal notranslate"><span class="pre">False</span></code>).</p>
+<p>Then comes the actual conditional statements.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">if</span></code> statement is always of the form <code class="docutils literal notranslate"><span class="pre">if</span> <span class="pre">&lt;something</span> <span class="pre">which</span> <span class="pre">can</span> <span class="pre">be</span> <span class="pre">either</span>
+<span class="pre">True</span> <span class="pre">or</span> <span class="pre">False&gt;:</span></code>. Notice how it always ends with a colon (<code class="docutils literal notranslate"><span class="pre">:</span></code>). In our
+example, the thing which must be either <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code> is the value
+assigned to <code class="docutils literal notranslate"><span class="pre">is_raining</span></code>. In our example it is, obviously, set to <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
+<p>Immediately underneath the <code class="docutils literal notranslate"><span class="pre">if</span></code> statement is an indented line (i.e. it’s not
+lined up with the start of the line). This is the line which will be evaluated
+when the “something which can be either true or false” is actually <code class="docutils literal notranslate"><span class="pre">True</span></code>.
+Any number of lines can be indented into this block of code to be run when (in
+our example) it is raining.</p>
+<p>Next comes an optional <code class="docutils literal notranslate"><span class="pre">else</span></code> statement. It is lined up with the
+<code class="docutils literal notranslate"><span class="pre">if</span></code> statement which preceeds it so Python knows they’re all part of the
+same conditional block. Notice how the <code class="docutils literal notranslate"><span class="pre">else</span></code> statement also always ends with
+a colon (<code class="docutils literal notranslate"><span class="pre">:</span></code>), just like the <code class="docutils literal notranslate"><span class="pre">if</span></code> statement does. Similarly, the indented
+line immediately below the <code class="docutils literal notranslate"><span class="pre">else</span></code> statement is run only when the “something
+which can be either true or false” is actually <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<p>When Python runs this code in its current form, the <code class="docutils literal notranslate"><span class="pre">else</span></code> block of code will
+never be evaluated since the <code class="docutils literal notranslate"><span class="pre">is_raining</span></code> flag is <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
+<p>Next, “while loops” are useful when there is a need to keep repeating a task
+while some condition is <code class="docutils literal notranslate"><span class="pre">True</span></code>. Just like with the conditional described
+above, the thing to be checked can only ever be <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code>. If the
+thing to be checked <em>is</em> <code class="docutils literal notranslate"><span class="pre">True</span></code> then the indented code below the <code class="docutils literal notranslate"><span class="pre">while</span></code>
+statement is evaluated before the thing to be checked is checked again.</p>
+<p>Consider the following example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">counter</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">while</span> <span class="n">counter</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">counter</span> <span class="o">=</span> <span class="n">counter</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There are&quot;</span><span class="p">,</span> <span class="n">counter</span><span class="p">,</span> <span class="s2">&quot; green bottles, standing on the wall.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This is a version of the simple “Ten Green Bottles” nursery rhyme. First, the
+name <code class="docutils literal notranslate"><span class="pre">counter</span></code> is assigned the integer value <code class="docutils literal notranslate"><span class="pre">10</span></code>. Next comes the <code class="docutils literal notranslate"><span class="pre">while</span></code>
+statement. Notice how <code class="docutils literal notranslate"><span class="pre">counter</span> <span class="pre">&gt;</span> <span class="pre">0</span></code> is a true/false check. Either the value
+of <code class="docutils literal notranslate"><span class="pre">counter</span></code> is greater than zero, or it isn’t. Notice also, just like with
+<code class="docutils literal notranslate"><span class="pre">if</span></code> and <code class="docutils literal notranslate"><span class="pre">else</span></code>, the line must end with a colon (<code class="docutils literal notranslate"><span class="pre">:</span></code>). In any case,
+<code class="docutils literal notranslate"><span class="pre">while</span></code> the value of <code class="docutils literal notranslate"><span class="pre">counter</span></code> is greater than zero, then evaluate the
+indented block of code immediately underneath. If the value of <code class="docutils literal notranslate"><span class="pre">counter</span></code> is
+not greater than 0 then the indented block of code will not be evaluated.</p>
+<p>In the indented block of code the <code class="docutils literal notranslate"><span class="pre">counter</span></code> name is re-assigned to its
+current value minus 1 (thus making it count down). If we didn’t do this the
+value of <code class="docutils literal notranslate"><span class="pre">counter</span></code> would always be <code class="docutils literal notranslate"><span class="pre">10</span></code> and thus always greater than zero
+which would mean this program would be trapped in an infinite loop. The second
+line of the indented block of code merely prints out the line of the
+nursery rhyme. Of course when <code class="docutils literal notranslate"><span class="pre">counter</span></code> reaches zero, the <code class="docutils literal notranslate"><span class="pre">while</span></code> loop no
+longer applies and the program ends.</p>
+<p>Finally, a “for loop” works well for iterating over each item in a collection
+of things. It’s like saying in English, “for each thing in some collection of
+things, do something or other with that thing”. For instance, keeping with the
+theme of nursery rhymes, here’s how “Old MacDonald” may automate his farm with
+a fragment of Python:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">farm_animals</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;cow&quot;</span><span class="p">,</span> <span class="s2">&quot;sheep&quot;</span><span class="p">,</span> <span class="s2">&quot;pig&quot;</span><span class="p">,</span> <span class="s2">&quot;chicken&quot;</span><span class="p">,</span> <span class="s2">&quot;horse&quot;</span><span class="p">,</span> <span class="p">]</span>
+<span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">farm_animals</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;On my farm I have a&quot;</span><span class="p">,</span> <span class="n">animal</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>It starts by assigning a list of strings containing the names of farm animals
+on Old MacDonald’s farm to <code class="docutils literal notranslate"><span class="pre">farm_animals</span></code>.</p>
+<p>Next comes the <code class="docutils literal notranslate"><span class="pre">for</span></code> statement which, just like the previous examples, must
+end with a colon (<code class="docutils literal notranslate"><span class="pre">:</span></code>). It is always of the form <code class="docutils literal notranslate"><span class="pre">for</span> <span class="pre">item_name</span> <span class="pre">in</span>
+<span class="pre">item_collection</span></code>. While I use <code class="docutils literal notranslate"><span class="pre">item_name</span></code> and
+<code class="docutils literal notranslate"><span class="pre">item_collection</span></code> as placeholder names (which describe what they do) it is
+better, like Old MacDonald, to use different <em>more meaningful</em> names.</p>
+<p>In any case, the <code class="docutils literal notranslate"><span class="pre">item_collection</span></code> must be a collection of things over which
+the <code class="docutils literal notranslate"><span class="pre">for</span></code> loop can iterate. If it’s not a collection of things, then Python
+will complain.</p>
+<p>Each time the <code class="docutils literal notranslate"><span class="pre">for</span></code> loop goes around the value of <code class="docutils literal notranslate"><span class="pre">item_name</span></code> will becom
+e the next item in the <code class="docutils literal notranslate"><span class="pre">item_collection</span></code>. Since Old MacDonald is using
+<em>meaningful</em> names for these place-holders it means that the first time the
+<code class="docutils literal notranslate"><span class="pre">for</span></code> loop goes round the value of <code class="docutils literal notranslate"><span class="pre">animal</span></code> will be the first item in
+<code class="docutils literal notranslate"><span class="pre">farm_animals</span></code> (i.e. <code class="docutils literal notranslate"><span class="pre">&quot;cow&quot;</span></code>) and the second time round, it’ll be
+<em>re-assigned</em> to the second item in <code class="docutils literal notranslate"><span class="pre">farm_animals</span></code> (i.e. <code class="docutils literal notranslate"><span class="pre">&quot;sheep&quot;</span></code>), and so
+on. It means that the indented code (just like with the <code class="docutils literal notranslate"><span class="pre">if</span></code> and <code class="docutils literal notranslate"><span class="pre">while</span></code>
+examples) will have access to the <code class="docutils literal notranslate"><span class="pre">animal</span></code> value on each iteration. In this
+case, it’s just a print statement to display the string of names of each animal
+that Old MacDonald has on his farm.</p>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-lg-4">
+            <strong class="logo">
+              <a href="/" id="footer-logo"><img src="/images/logo.svg" alt="CodeGrades"></a>
+            </strong>
+          </div>
+          <div class="col-12 col-lg-8">
+            <ul class="item-list">
+              <!--li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li-->
+              <li><a href="/privacy.html" id="footer-privacy">Privacy Policy</a></li>
+              <li>CodeGrades &copy; 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

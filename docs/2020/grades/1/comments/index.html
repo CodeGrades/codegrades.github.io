@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grade 1: Simple Commenting and Documentation &#8212; CodeGrades 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/codegrades.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><span><img src="../../../../_static/logo.svg"></span>
+           </a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="/docs/2020">Contents</a></li>
+                <li><a href="/docs/2020/grades">Grades</a></li>
+                <li><a href="/docs/2020/mentors">Mentors</a></li>
+                <li><a href="/docs/2020/outcomes">Outcomes</a></li>
+            
+            
+              
+                
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="grade-1-simple-commenting-and-documentation">
+<h1><a class="reference external" href="/docs/2020/grades/1">Grade 1</a>: Simple Commenting and Documentation<a class="headerlink" href="#grade-1-simple-commenting-and-documentation" title="Permalink to this headline">¶</a></h1>
+<p>When we write code, to help humans make sense of what it means, we need to add
+annotations to explain our thinking. These are called <strong>comments</strong> and form
+an important part of <strong>documenting</strong> code. If code isn’t documented in a clear
+and helpful manner, then it is hard to understand and difficult to fix.</p>
+<p><strong>GOOD CODE ALWAYS CONTAINS COMMENTS.</strong></p>
+<p>Good comments always explain why something is the case, rather than what
+the code is doing (we should be able to work this out by reading the code
+itself). It is the <em>“why”</em> of code which is often the missing key to fixing
+bugs or improving code. You’ll also find that even after a few days it’s hard
+to remember <em>why</em> you even wrote some piece of code at all! Comments are a good
+reminder to your future self. Finally it’s friendly to leave comments since
+you’re showing care and attention to future collaborators who may need to
+fix, improve or learn from your code.</p>
+<p>In some respects, <strong>DOCUMENTATION IS MORE IMPORTANT THAN THE CODE</strong> because
+documentation explains why something happens – the thing which gives code its
+value. The code itself can always be re-written and changed.</p>
+<p>Comments in Python come in two types:</p>
+<ol class="arabic simple">
+<li>Anything following a <code class="docutils literal notranslate"><span class="pre">#</span></code> symbol is a comment.</li>
+<li>At the start of a file it’s common to add an explanaition as a
+triple-quoted (<code class="docutils literal notranslate"><span class="pre">&quot;&quot;&quot;</span></code>) string.</li>
+</ol>
+<p>This simple example demonstrates these in action:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">This is an example of a comment at the start of a file which explains</span>
+<span class="sd">why this file exists and is important. It&#39;s meant to provide a friendly</span>
+<span class="sd">greeting from Python. Note how it starts and ends with triple-quotation</span>
+<span class="sd">marks.</span>
+
+<span class="sd">It may also contain information about who wrote the file and how to use</span>
+<span class="sd">the code.</span>
+
+<span class="sd">In this case, the code was written by Nicholas Tollervey and you run it</span>
+<span class="sd">by clicking the &quot;Run&quot; button in Mu&#39;s Python 3 mode.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="c1"># Use a polite question!</span>
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;What is your name? &quot;</span><span class="p">)</span>
+<span class="c1"># The message must be friendly.</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, &quot;</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>All project code submitted for grading <strong>must contain comments</strong> that follow
+the conventions outlined above.</p>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-lg-4">
+            <strong class="logo">
+              <a href="/" id="footer-logo"><img src="/images/logo.svg" alt="CodeGrades"></a>
+            </strong>
+          </div>
+          <div class="col-12 col-lg-8">
+            <ul class="item-list">
+              <!--li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li-->
+              <li><a href="/privacy.html" id="footer-privacy">Privacy Policy</a></li>
+              <li>CodeGrades &copy; 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grade 2: Function Calls &#8212; CodeGrades 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/codegrades.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><span><img src="../../../../_static/logo.svg"></span>
+           </a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="/docs/2020">Contents</a></li>
+                <li><a href="/docs/2020/grades">Grades</a></li>
+                <li><a href="/docs/2020/mentors">Mentors</a></li>
+                <li><a href="/docs/2020/outcomes">Outcomes</a></li>
+            
+            
+              
+                
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="grade-2-function-calls">
+<h1><a class="reference external" href="/docs/2020/grades/2">Grade 2</a>: Function Calls<a class="headerlink" href="#grade-2-function-calls" title="Permalink to this headline">¶</a></h1>
+<p>In grade 1 you may have found yourself repeatedly typing in the same few lines
+of code again and again so your program is able to do the same type of thing
+but in a different context.</p>
+<p>Happily, we can define such common tasks and give them a helpful name. These
+are called <strong>functions</strong>.</p>
+<p>Functions allow us to create new “words” in the Python programming language.
+Whenever we need to do a common task again and again, instead of typing out
+the same piece of code, we just use the function (we say we <strong>call</strong> the
+function).</p>
+<p>Calling a function usually <strong>returns</strong> a result, or answer. Functions sometimes
+need things to work with in order to generate an answer ~ these are called
+the function’s <strong>arguments</strong>.</p>
+<p>Imagine the function is a sort of strange machine with a converor belt at each
+end. Such a machine will do just one task, and all you need to do is give it
+the right things needed to complete the task. So, you put the <strong>arguments</strong>
+into the machine, the machine does a bunch of stuff that’s hidden from view,
+and ends up <strong>returning</strong> a result to you.</p>
+<p>In Python it would look something like this…</p>
+<p>Imagine we had a silly function that makes friendly greetings. It needs the
+name of the person you want to greet and will respond with a randomly
+generated friendly greeting. You’d use it like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Mary&quot;</span>
+<span class="n">greeting</span> <span class="o">=</span> <span class="n">greet</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In this fragment of code, we first define the <code class="docutils literal notranslate"><span class="pre">name</span></code> of the person to greet
+as the string <code class="docutils literal notranslate"><span class="pre">&quot;Mary&quot;</span></code>. Next we assign <code class="docutils literal notranslate"><span class="pre">greeting</span></code> to whatever is returned
+from the <code class="docutils literal notranslate"><span class="pre">greet</span></code> function. Notice that to call a function, we just use its
+name and enclose the arguments it needs in parenthesis. In this case, the name
+of the function is <code class="docutils literal notranslate"><span class="pre">greet</span></code> and the thing it needs is the name of a person
+(which we have already assigned to <code class="docutils literal notranslate"><span class="pre">name</span></code>). Therefore, to call the function
+we need to type: <code class="docutils literal notranslate"><span class="pre">greet(name)</span></code>. Finally we just <code class="docutils literal notranslate"><span class="pre">print</span></code> the result (if
+you’ve been paying attention, you’ll realise that <code class="docutils literal notranslate"><span class="pre">print</span></code> is itself a
+function call which takes an argument containing the value you want to print to
+the screen).</p>
+<p>The most important thing to remember is that you don’t need to worry about
+<em>how</em> the <code class="docutils literal notranslate"><span class="pre">greet</span></code> function works, just that it <em>behaves</em> in a certain way (if
+you give it a name, it’ll return a friendly greeting). Sometimes this is called
+a “black box” way of thinking.</p>
+<p>One other thing you need to remember is that functions may not need an
+argument, in which case you simply don’t put anything between the parenthesis
+(for example, that’s how <code class="docutils literal notranslate"><span class="pre">random.random()</span></code> works, it just returns a random
+value between <code class="docutils literal notranslate"><span class="pre">0.0</span></code> and <code class="docutils literal notranslate"><span class="pre">1.0</span></code>, without any need for an argument).
+Alternatively, some functions can take several arguments and you <strong>must</strong> put
+the arguments between the parentheis in the correct order (for instance, the
+<code class="docutils literal notranslate"><span class="pre">random.randint</span></code> function expects the lower number to come before the upper
+number to define the range of possible random numbers; if you get that the
+wrong way round it’ll be a bug and things won’t work quite how you expect them
+to).</p>
+<p>Finally, if you want to learn about the behaviour of a function you have
+several choices:</p>
+<ul class="simple">
+<li>Use the <code class="docutils literal notranslate"><span class="pre">help</span></code> function in the REPL. Just pass in the function you’re
+interested into the <code class="docutils literal notranslate"><span class="pre">help</span></code> function to get access to the <em>technical</em>
+documentation. While correct, this may not be easy to understand for a
+beginner.</li>
+<li>Look online (use a search engine) for documentation about the function.
+Often this merely involves typing “Python function random.random” into Google
+(if you were looking for help on the <code class="docutils literal notranslate"><span class="pre">random.random</span></code> function).</li>
+<li>Similarly, there are often lots of informal tutorials and example of how to
+use many of the functions found in Python. Typing “Python tutorial
+random.random” will get you plenty of helpful tutorials, including examples,
+for the <code class="docutils literal notranslate"><span class="pre">random.random</span></code> function.</li>
+</ul>
+<p>While using functions is convenient, writing functions is a powerful way to
+organise your project to make it easy to fulfil your goals. Happily, it’s very
+easy to define functions in Python.</p>
+<p>Here’s how to define the <code class="docutils literal notranslate"><span class="pre">greet</span></code> function used in the examples above:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="k">import</span> <span class="n">choice</span>
+
+<span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A function that takes a name (as a string) and returns a random</span>
+<span class="sd">    greeting (as a string) which includes that name.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">greetings</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="s2">&quot;Hi&quot;</span><span class="p">,</span> <span class="s2">&quot;How do you do&quot;</span><span class="p">,</span> <span class="s2">&quot;Howdy&quot;</span><span class="p">,</span> <span class="s2">&quot;Eyup&quot;</span> <span class="p">]</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">choice</span><span class="p">(</span><span class="n">greetings</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">name</span>
+    <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+</div>
+<p>Notice how we <code class="docutils literal notranslate"><span class="pre">import</span></code> the <code class="docutils literal notranslate"><span class="pre">choice</span></code> function from the <code class="docutils literal notranslate"><span class="pre">random</span></code> module,
+which we’ll need to use in our <code class="docutils literal notranslate"><span class="pre">greet</span></code> function.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">def</span></code> keyword is used to <strong>define</strong> a function. The <code class="docutils literal notranslate"><span class="pre">def</span></code> keyword is
+always followed by the name of the new function and then a list of the names
+of the arguments the function needs. In our case, the function only takes a
+single argument that we have helpfully called <code class="docutils literal notranslate"><span class="pre">name</span></code>. The argument name
+could be anything – but like the name of the function itself, it’s important
+to give the arguments names which indicate what the values will eventually
+represent.</p>
+<p>What follows is a block of indented code. This is the <strong>body</strong> of the function
+and contains the code which defines how the function will behave. Before
+getting to the code we find a triple quoted string. This is called the
+<strong>docstring</strong> for the function is will be what is displayed whenever anyone
+types <code class="docutils literal notranslate"><span class="pre">help(greet)</span></code> in the REPL. It’s important to always include a helpful
+docstring so folks can read what the function is supposed to do,
+what arguments it needs (and what they represent) and what the returned value
+may be.</p>
+<p>The code within the function is just plain-old-Python, except for the final
+line. Here the outcome of the function is returned to the code which called
+the function. To do this we use the <code class="docutils literal notranslate"><span class="pre">return</span></code> keyword. In the example above,
+we return the value associated with the name <code class="docutils literal notranslate"><span class="pre">result</span></code>, which contains the
+randomly selected greeting with the value of the <code class="docutils literal notranslate"><span class="pre">name</span></code> argument appended to
+the end.</p>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-lg-4">
+            <strong class="logo">
+              <a href="/" id="footer-logo"><img src="/images/logo.svg" alt="CodeGrades"></a>
+            </strong>
+          </div>
+          <div class="col-12 col-lg-8">
+            <ul class="item-list">
+              <!--li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li-->
+              <li><a href="/privacy.html" id="footer-privacy">Privacy Policy</a></li>
+              <li>CodeGrades &copy; 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grade 1: Basic Types &#8212; CodeGrades 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/codegrades.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><span><img src="../../../../_static/logo.svg"></span>
+           </a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="/docs/2020">Contents</a></li>
+                <li><a href="/docs/2020/grades">Grades</a></li>
+                <li><a href="/docs/2020/mentors">Mentors</a></li>
+                <li><a href="/docs/2020/outcomes">Outcomes</a></li>
+            
+            
+              
+                
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="grade-1-basic-types">
+<h1><a class="reference external" href="/docs/2020/grades/1">Grade 1</a>: Basic Types<a class="headerlink" href="#grade-1-basic-types" title="Permalink to this headline">¶</a></h1>
+<p>Python programs are able to use and represent different types of things.
+At grade 1 you will need to know about four basic types:</p>
+<ul class="simple">
+<li>Collections of characters called “<strong>strings</strong>” represent
+anything containing words, symbols or characters. Strings always
+start and end in double quotes (<code class="docutils literal notranslate"><span class="pre">&quot;</span></code>) like this: <code class="docutils literal notranslate"><span class="pre">&quot;hello&quot;</span></code> (you can also
+use single quotes (<code class="docutils literal notranslate"><span class="pre">'</span></code>) but because the single quote character is also used
+as an apostrophe, things can go awry). In the example, the characters <code class="docutils literal notranslate"><span class="pre">h</span></code>,
+<code class="docutils literal notranslate"><span class="pre">e</span></code>, <code class="docutils literal notranslate"><span class="pre">l</span></code>, <code class="docutils literal notranslate"><span class="pre">l</span></code>, and <code class="docutils literal notranslate"><span class="pre">o</span></code> are found within the string because they are
+enclosed by the double quotes. Strings of characters can be empty (<code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code>) or
+extraordinarily long (Python doesn’t mind).</li>
+<li>Whole numbers called “<strong>integers</strong>” (like <code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">3</span></code> or <code class="docutils literal notranslate"><span class="pre">4</span></code>)
+are very useful for keeping count of things and doing simple arithmentic.
+Integers are represented by digits, but without any double quotes (i.e.
+<em>just</em> the digits for the number). Integers can be positive or negative, for
+example <code class="docutils literal notranslate"><span class="pre">100</span></code> or <code class="docutils literal notranslate"><span class="pre">-100</span></code> and can be as large or small as you need.</li>
+<li>Floating point numbers (also called “<strong>floats</strong>”) represent numbers with a
+decimal point in them. They are useful for working with numbers which have
+fractional parts. They are represented by digits but must also have a decimal
+point. For example, <code class="docutils literal notranslate"><span class="pre">1.234</span></code> or <code class="docutils literal notranslate"><span class="pre">-12.34</span></code> or <code class="docutils literal notranslate"><span class="pre">3.141</span></code>. They can be as
+large or small as you need.</li>
+<li>“<strong>Boolean</strong>” values are either just <code class="docutils literal notranslate"><span class="pre">True</span></code> or <code class="docutils literal notranslate"><span class="pre">False</span></code> and,
+unsurprisingly, mean exactly what they say. You use the word <code class="docutils literal notranslate"><span class="pre">True</span></code> in
+Python to show that something is true, whereas, <code class="docutils literal notranslate"><span class="pre">False</span></code> means something is
+false. These sorts of values are often used as “flags” to indicate something
+is either one thing or another. For example, <code class="docutils literal notranslate"><span class="pre">is_leap_year</span> <span class="pre">=</span> <span class="pre">True</span></code>
+describes a flag called “is_leap_year” and assigns it the value <code class="docutils literal notranslate"><span class="pre">True</span></code>
+(2020 is, indeed, a leap year).</li>
+</ul>
+<p>Using such types is very simple. For example, in the following fragment of
+code I name some values of string, integer, float and boolean types to
+allow me to represent information about myself:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Nicholas&quot;</span>
+<span class="n">age</span> <span class="o">=</span> <span class="mi">45</span>
+<span class="n">height_in_meters</span> <span class="o">=</span> <span class="mf">1.8</span>
+<span class="n">male</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<p>It is possible to convert between one type of thing and another. For example,
+to convert from a number to a string use <code class="docutils literal notranslate"><span class="pre">str</span></code> like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">str</span><span class="p">(</span><span class="mi">123</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Resulting in the characters <code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code> and <code class="docutils literal notranslate"><span class="pre">3</span></code> as a string:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;123&quot;</span>
+</pre></div>
+</div>
+<p>To convert a string into a whole number number, the string
+must only contain digits. Then use <code class="docutils literal notranslate"><span class="pre">int</span></code> (for integer) like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span><span class="p">(</span><span class="s2">&quot;123&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The outcome is the number <code class="docutils literal notranslate"><span class="pre">123</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">123</span>
+</pre></div>
+</div>
+<p>Notice how <code class="docutils literal notranslate"><span class="pre">&quot;123&quot;</span></code> (three digits starting and ending with double quotes)
+becomes the number <code class="docutils literal notranslate"><span class="pre">123</span></code> (note the lack of quotation marks). If you don’t
+use a string with just digits in it, then Python will complain (you’ll get a
+<code class="docutils literal notranslate"><span class="pre">ValueError</span></code> indicating that you’ve asked Python to do something with the
+wrong sort of value – a string that doesn’t just contain digits).</p>
+<p>It’s very important you understand the difference between the characters
+<code class="docutils literal notranslate"><span class="pre">&quot;1&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;2&quot;</span></code>, and <code class="docutils literal notranslate"><span class="pre">&quot;3&quot;</span></code> expressed as a string (<code class="docutils literal notranslate"><span class="pre">&quot;123&quot;</span></code>) and the integer
+one hundred and twenty three represented by the digits <code class="docutils literal notranslate"><span class="pre">123</span></code>. The string
+just contains characters and Python doesn’t care about the meaning of the
+characters you or I might see (such as words or numbers). The digits, however,
+mean something numeric to Python (i.e. the integer quantity one hundred and
+twenty three).</p>
+<p>To convert a string to a float, the characters in the string must be digits and
+the decimal point must be in the right place. Use <code class="docutils literal notranslate"><span class="pre">float</span></code> like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">float</span><span class="p">(</span><span class="s2">&quot;1.23&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Giving the floating point value:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">1.23</span>
+</pre></div>
+</div>
+<p>Once again, notice the lack of quotation marks in the result, because Python
+is giving you something which is a type of floating point number (and not a
+string of characters).</p>
+<p>Finally, if you want to know the “truth value” of something (i.e. you’re asking
+“is this true or false?”) use <code class="docutils literal notranslate"><span class="pre">bool</span></code> (for “boolean”) like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">bool</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">bool</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>or even:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">bool</span><span class="p">(</span><span class="mf">1.23</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>In Python empty things and zero quantity are always evaluated as being
+false (<code class="docutils literal notranslate"><span class="pre">False</span></code>). Anything else is considered true (<code class="docutils literal notranslate"><span class="pre">True</span></code>). In the examples
+above, <code class="docutils literal notranslate"><span class="pre">bool(&quot;&quot;)</span></code> is considered <code class="docutils literal notranslate"><span class="pre">False</span></code> because the string (<code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code>) is
+empty. The remaining two values used with <code class="docutils literal notranslate"><span class="pre">bool</span></code> (<code class="docutils literal notranslate"><span class="pre">1</span></code> and <code class="docutils literal notranslate"><span class="pre">1.23</span></code>) are
+both <code class="docutils literal notranslate"><span class="pre">True</span></code> because they are not zero. Even <code class="docutils literal notranslate"><span class="pre">bool(0.00000000001)</span></code> is
+considered <code class="docutils literal notranslate"><span class="pre">True</span></code>. Only <code class="docutils literal notranslate"><span class="pre">bool(0.0)</span></code> (for floats) or <code class="docutils literal notranslate"><span class="pre">bool(0)</span></code> for
+integers are <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-lg-4">
+            <strong class="logo">
+              <a href="/" id="footer-logo"><img src="/images/logo.svg" alt="CodeGrades"></a>
+            </strong>
+          </div>
+          <div class="col-12 col-lg-8">
+            <ul class="item-list">
+              <!--li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li-->
+              <li><a href="/privacy.html" id="footer-privacy">Privacy Policy</a></li>
+              <li>CodeGrades &copy; 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grade 1: Simple Arithmetic / Numeric Operators &#8212; CodeGrades 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/codegrades.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><span><img src="../../../../_static/logo.svg"></span>
+           </a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="/docs/2020">Contents</a></li>
+                <li><a href="/docs/2020/grades">Grades</a></li>
+                <li><a href="/docs/2020/mentors">Mentors</a></li>
+                <li><a href="/docs/2020/outcomes">Outcomes</a></li>
+            
+            
+              
+                
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="grade-1-simple-arithmetic-numeric-operators">
+<h1><a class="reference external" href="/docs/2020/grades/1">Grade 1</a>: Simple Arithmetic / Numeric Operators<a class="headerlink" href="#grade-1-simple-arithmetic-numeric-operators" title="Permalink to this headline">¶</a></h1>
+<p>In Python you can use familiar “operators” to perform basic arithmetic and
+comparison of values. “Operator” is what we call the symbols used to represent
+mathematical and logical operations which return new results. You already know
+them as:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">+</span></code> - addition, sum two numbers together. (<code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">+</span> <span class="pre">1</span></code> returns <code class="docutils literal notranslate"><span class="pre">2</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">-</span></code> - subtraction of one number from another. (<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">-</span> <span class="pre">1</span></code> returns <code class="docutils literal notranslate"><span class="pre">1</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">*</span></code> - multiplication of one number by another. (<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">*</span> <span class="pre">3</span></code> returns <code class="docutils literal notranslate"><span class="pre">6</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">/</span></code> - division of one number by another. (<code class="docutils literal notranslate"><span class="pre">5</span> <span class="pre">/</span> <span class="pre">2</span></code> returns <code class="docutils literal notranslate"><span class="pre">2.5</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">%</span></code> - modulo, give the remainder from a division. (<code class="docutils literal notranslate"><span class="pre">5</span> <span class="pre">%</span> <span class="pre">2</span></code> returns <code class="docutils literal notranslate"><span class="pre">1</span></code>)</li>
+</ul>
+<p>Comparison operators always return a boolean value (either <code class="docutils literal notranslate"><span class="pre">True</span></code> or
+<code class="docutils literal notranslate"><span class="pre">False</span></code>) depending on the comparison of two numbers:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">&lt;</span></code> - less than returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if the number on the left is less than the
+number on the right. (<code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">&lt;</span> <span class="pre">2</span></code> returns <code class="docutils literal notranslate"><span class="pre">True</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">&gt;</span></code> - greater than returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if the number on the left is greater
+than the number on the right. (<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">&gt;</span> <span class="pre">1</span></code> returns <code class="docutils literal notranslate"><span class="pre">True</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">==</span></code> - equals (not to be confused with assignment [<code class="docutils literal notranslate"><span class="pre">=</span></code>]) returns <code class="docutils literal notranslate"><span class="pre">True</span></code>
+if two numbers are of the same value. (<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">==</span> <span class="pre">2</span></code> returns <code class="docutils literal notranslate"><span class="pre">True</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">!=</span></code> - not equals returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if the two numbers are NOT of the same
+value. (<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">!=</span> <span class="pre">1</span></code> returns <code class="docutils literal notranslate"><span class="pre">True</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;=</span></code> - less than or equal to returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if the number on the left is
+either less than or equal in value to the number on the right. (<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">&lt;=</span> <span class="pre">2</span></code>
+returns <code class="docutils literal notranslate"><span class="pre">True</span></code>)</li>
+<li><code class="docutils literal notranslate"><span class="pre">&gt;=</span></code> - greater than or equal to returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if the number on the left
+is either greater than or equal in value to the number on the right.
+(<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">&gt;=</span> <span class="pre">2</span></code> returns <code class="docutils literal notranslate"><span class="pre">True</span></code>)</li>
+</ul>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-lg-4">
+            <strong class="logo">
+              <a href="/" id="footer-logo"><img src="/images/logo.svg" alt="CodeGrades"></a>
+            </strong>
+          </div>
+          <div class="col-12 col-lg-8">
+            <ul class="item-list">
+              <!--li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li-->
+              <li><a href="/privacy.html" id="footer-privacy">Privacy Policy</a></li>
+              <li>CodeGrades &copy; 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

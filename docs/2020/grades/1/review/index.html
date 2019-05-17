@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grade 1: Code Review &#8212; CodeGrades 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/codegrades.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><span><img src="../../../../_static/logo.svg"></span>
+           </a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="/docs/2020">Contents</a></li>
+                <li><a href="/docs/2020/grades">Grades</a></li>
+                <li><a href="/docs/2020/mentors">Mentors</a></li>
+                <li><a href="/docs/2020/outcomes">Outcomes</a></li>
+            
+            
+              
+                
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="grade-1-code-review">
+<h1><a class="reference external" href="/docs/2020/grades/1">Grade 1</a>: Code Review<a class="headerlink" href="#grade-1-code-review" title="Permalink to this headline">¶</a></h1>
+<p>Contrary to popular misconceptions, software developers actually spend most of
+their time <strong>reading code</strong>. The skill of reading and understanding how code
+works is perhaps <strong>the most important skill you can learn</strong>. This is why doing
+a code review on an unseen fragment of Python is an essential aspect of the
+grading process.</p>
+<p>The code review you’ll do as part of your grading will only include features
+of your current (or earlier) grades. However, as you read the code the code
+mentor will want to see that you understand the presented code. You do this
+by explaining the code to the code mentor. You can, if you wish, ask the
+code mentor questions if something doesn’t quite seem correct.</p>
+<p>The first thing you should do is <strong>read the comments</strong> which explain what the
+code is supposed to do.</p>
+<p>Next, you should talk your way down the lines of code and describe what you
+see as a sort of story of how the code works. This is a common technique and
+similar to the sort of thing a driving instructer would ask of a learner driver
+to check that the learner is understanding the road conditions. For instance,
+when approaching a junction, the instructor would want to hear something like,</p>
+<blockquote>
+<div>OK… so I’m just going to check my mirror before I apply the breaks. Now
+that I’m slowing down I’m going to indicate which way I want to turn and can
+see there’s no gap in the traffic so I’ll come to a stop. While I’m stopped
+I’ll just put the car into neutral. Aha… I see a big gap in the traffic so
+I’m going to put the car into gear and slowly press the accelorator and steer
+into the direction of traffic (making sure I don’t hit anything).</div></blockquote>
+<p>That’s rather a lot of description and detail for a manouver that may only
+take a couple of seconds. But we expect the same level of detail when you tell
+the story of the code you see.</p>
+<p>Here’s where it gets fun.</p>
+<p>In grade 1 we will have added two deliberate bugs to the code so you have
+something to look out for while you tell the story of the code.</p>
+<p>To be clear, in this exercise <strong>we are grading you on your ability to
+understand the code</strong>. You won’t fail if you don’t fix the bugs, although that
+would be a useful thing to do.</p>
+<p>The two bugs are of different types:</p>
+<ul class="simple">
+<li><strong>Syntax error</strong> - we have simply typed our code in wrong and Python doesn’t
+know how to process it.</li>
+<li><strong>Runtime error</strong> - while the code may be correct Python, it’s doing the
+wrong sort of thing.</li>
+</ul>
+<p>It’s easy to catch syntax errors: just run the code and Python will tell you.
+Alternatively, you could use Mu’s built-in “Check” button to help you identify
+where the syntax error is.</p>
+<p>The runtime error can only be fixed <strong>if you understand what the code is doing
+and why</strong>. This is why it’s important to explain the story of the code to the
+code mentor.</p>
+<p>To help you find and fix the runtime error you should pay special attention to
+the following aspects of the story of the code:</p>
+<ul class="simple">
+<li>What values are assigned to particular names?</li>
+<li>How are the different types of values used?</li>
+<li>How does the code jump around (if it has conditionals, while loops or
+for loops)?</li>
+<li>What can you do to check your version of the story of the code is the same
+as how Python executes the code?</li>
+<li>Have you understood the comments?</li>
+</ul>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-lg-4">
+            <strong class="logo">
+              <a href="/" id="footer-logo"><img src="/images/logo.svg" alt="CodeGrades"></a>
+            </strong>
+          </div>
+          <div class="col-12 col-lg-8">
+            <ul class="item-list">
+              <!--li><a href="/terms.html" id="footer-terms">Terms & Conditions</a></li-->
+              <li><a href="/privacy.html" id="footer-privacy">Privacy Policy</a></li>
+              <li>CodeGrades &copy; 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

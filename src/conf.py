@@ -21,7 +21,7 @@ import sphinx_bootstrap_theme
 # -- Project information -----------------------------------------------------
 
 project = 'CodeGrades'
-copyright = '2018, CodeGrades'
+copyright = '2019, CodeGrades'
 author = 'CodeGrades'
 
 # The short X.Y version
@@ -166,10 +166,10 @@ html_theme_options = {
     'navbar_title': ' ',
     'source_link_position': None,
     'navbar_links': [
-        ("Documentation Home", "/docs/2019", True),
-        ("Grades", "/docs/2019/grades", True),
-        ("Mentors", "/docs/2019/mentors", True),
-        ("Outcomes", "/docs/2019/outcomes", True),
+        ("Contents", "/docs/2020", True),
+        ("Grades", "/docs/2020/grades", True),
+        ("Mentors", "/docs/2020/mentors", True),
+        ("Outcomes", "/docs/2020/outcomes", True),
     ],
 }
 

@@ -5,6 +5,7 @@ all:
 	@echo "\nThere is no default Makefile target. Try:\n"
 	@echo "make clean - reset and remove all the auto-generated assets."
 	@echo "make docs - run sphinx to create auto-generated documentation."
+	@echo "make serve - build the docs and serve them locally."
 	@echo "make deploy - generate all the docs and push to GitHub Pages."
 
 clean:
