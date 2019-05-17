@@ -1,6 +1,9 @@
 Mentors
 =======
 
+.. contents::
+    :depth: 2
+
 Code mentors are professional software developers with current industry
 knowledge and demonstrate both the technical expertise, pedagogical skill and
 people-management needed to be an effective code mentor. CodeGrades will favour
@@ -44,10 +47,11 @@ know. To be a code mentor means:
 
 * You have the required criminal record checks for your locale in place (see
   the section on DBS above).
-* You can give at least 1 week, but preferably 2 weeks of your time in each
-  year to take part in grading. Such blocks of time don't have to be
+* You can give at least 1 week, but preferably 2 weeks or more of your time in
+  each year to take part in grading. Such blocks of time don't have to be
   contiguous. Missing a week's block in a calendar year means removal from the
-  register of code mentors.
+  register of code mentors. A week means five working days. A working day means
+  roughly six hours of direct contact time with candidates.
 * You are paid a competetive salary for your mentoring during grading
   (equivalent to a contractor day-rate in the mentor's locale).
 * You have a page on the CodeGrades website so your status as a code mentor can
@@ -57,12 +61,12 @@ Senior Code Mentor
 ------------------
 
 A senior code mentor is someone employed full time by CodeGrades. They will
-spend at least half their time working as a code mentor or associated tasks
+spend at least 60% of their time working as a code mentor or associated tasks
 (such as curriculum development, or supporting regular code mentors), with the
-remaining 50% of their time being their own for the purposes of development of
+remaining 40% of their time being their own for the purposes of development of
 free / open source software. How this time is split is negotiated on an
-individual basis -- for example, working 2.5 days a week may suit some, whereas
-others may want to work a month "on" followed by a month "off".
+individual basis -- for example, working 3 days a week may suit some, whereas
+others may want to work roughly two months "on" followed by one month "off".
 
 Distinguished Code Mentor
 -------------------------
@@ -70,4 +74,4 @@ Distinguished Code Mentor
 A distinguished code mentor is simply a senior code mentor who the wider
 community of code mentors wish to recognise for their efforts, support or
 contributions. We want to foster a positive community that recognises the
-achievements of others.
+achievements of others - this is one such mechanism.

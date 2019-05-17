@@ -1,6 +1,9 @@
 Grades
 ======
 
+.. contents::
+    :depth: 2
+
 Grades are progressive and cumulative steps for learning how to program. So far
 only the Python programming language is used (although this scope may expand).
 
@@ -13,8 +16,9 @@ Eight grades are organised into three categories:
 * Enhanced (grades 6, 7 and 8) -- revisit, extend and refine the core
   concepts to reach a professional level at grade eight.
 
-To pass a grade a candidate prepares for a "grading" with a code mentor (a
-professional Python programmer).
+To pass a grade a candidate prepares for a "grading" where they present to a
+code mentor (a professional Python programmer) who will give supportive written
+feedback and marks to help identify strengths and weaknesses.
 
 Each grade has three requirements:
 
@@ -25,6 +29,38 @@ Each grade has three requirements:
 * A candidate should understand and have practiced for an "unseen code" task
   where they will engage with the code mentor on a paired programming activity
   using code unseen by the candidate.
+
+The Eight Grades
+----------------
+
+The eight grades are listed and linked to below. Each grade has a name and
+associated category (foundation, core, developmental). A brief overview
+provides examples of the core concepts a candidate at each grade will be
+expected to understand and demonstrate.
+
+Click on the links for each grade's list of core concepts (with links to
+educational resources for such concepts), candidate project expectations,
+detailed description of the pairing task and examples of projects
+and pair-programming tasks for that grade's level of attainment.
+
+Since grades are cumulative, later grades also include and assume knowledge and
+skills from earlier grades. Therefore, grade 8 includes all the requirements of
+all previous grades in addition to the requirements for grade 8.
+
+.. cssclass:: table-bordered
+
+    ============================= ====================================== ============= ===========================
+    Grade                         Name                                   Category      Description of Requirements
+    ============================= ====================================== ============= ===========================
+     `1 </docs/2020/grades/1/>`_  `Initial </docs/2020/grades/1/>`_      Foundation    Assignment of variables, simple program control flow with basic types and data structures, basic I/O, informal documentation including comments in code and user focused requirements. May use block based coding. Basic use of the REPL.
+     `2 </docs/2020/grades/2/>`_  `Elementary </docs/2020/grades/2/>`_   Foundation    Must be text based coding only. Import third-party code, define and call simple functions, data validation/checking/handling, understands/uses AND/OR/NOT, a coherent understanding of program flow (for, if..elif, while), string operations, nested data structures, debugging strategies and a README.
+     `3 </docs/2020/grades/3/>`_  `Lower </docs/2020/grades/3/>`_        Core          Define and call complicated functions and create docstrings, use and knowledge of core data structures (dicts, lists, sets, bytes, strings), multi-file projects, exception handling, file system based operations (reading and writing files), simple HTTP requests, basic use of SCM (GIT), a docs to include supporting files.
+     `4 </docs/2020/grades/4/>`_  `Intermediate </docs/2020/grades/4/>`_ Core          Unit tests for user defined functions, a coherent understanding of types, an understanding of popular aspects of the standard library (os, sys, exceptions etc), limited use of builtins, list comprehensions / generator statements, demonstrates understanding / usage of the REPL and/or PDB, simple use of data storage.
+     `5 </docs/2020/grades/5/>`_  `Higher </docs/2020/grades/5/>`_       Core          Object orientation (creating / instantiating user define classes), data serialisation (JSON and CSV), context handlers, idiomatic use of truth and associated logical operators, use of logging, fluency with virtualenv and pip, demonstrates use of tools to help code quality (PEP8, PyFlakes, Coverage etc...), auto-generation of documentation (Sphinx).
+     `6 </docs/2020/grades/6/>`_  `Transitional </docs/2020/grades/6/>`_ Enhanced      Inheritance and mixins in OOP, function decorators, generator functions, use of third party frameworks to achieve ends, the project has an online presence (GitHub?), evidence of community related aspects of such (CoC, CONTRIBUTING etc), use of an issue tracker and comprehensive documentation.
+     `7 </docs/2020/grades/7/>`_  `Advanced </docs/2020/grades/7/>`_     Enhanced      Concurrency in Python (threading, multiprocessing, asyncio/await/async), basic networking, user interface design, heuristics and implementation, mocking and patching in tests, different test strategies (unit tests vs integration tests), project automation and expectations for community collaboration and leadership.
+     `8 </docs/2020/grades/8/>`_  `Final </docs/2020/grades/8/>`_        Enhanced      Use of __magic__ methods, understands Python protocols and can give examples of PEPs that define such, an understanding of lambda functions. Use of setup.py to put project on PyPI or other packaging option. Documentation on ReadTheDocs (or equivalent), project automation via CI (auto-run test suite on commit, build installers etc). Demonstrates respectful mentoring in a role of project leadership. Groks the Zen of Python.
+    ============================= ====================================== ============= ===========================
 
 
 What Happens?
@@ -243,34 +279,21 @@ described in this (2020) version of the syllabus will be 30th June 2021.**
 It is through such overlapping of annual grading syllabi that CodeGrades keeps
 up to date with the fast moving developments in the world of technology.
 
-The Eight Grades
-----------------
+Grades In Depth
+---------------
 
-The eight grades are listed and linked to below. Each grade has a name and
-associated category (foundation, core, developmental). A brief overview
-provides examples of the core concepts a candidate at each grade will be
-expected to understand and demonstrate.
+The following table of contents lists the important sections of the official
+syllabus for each grade.
 
-Click on the links for each grade's list of core concepts (with links to
-educational resources for such concepts), candidate project expectations,
-detailed description of the pairing task and examples of projects
-and pair-programming tasks for that grade's level of attainment.
+.. toctree::
+    :maxdepth: 2
 
-Since grades are cumulative, later grades also include and assume knowledge and
-skills from earlier grades. Therefore, grade 8 includes all the requirements of
-all previous grades in addition to the requirements for grade 8.
-
-.. cssclass:: table-bordered
-
-    ============================= ====================================== ============= ===========================
-    Grade                         Name                                   Category      Description of Requirements
-    ============================= ====================================== ============= ===========================
-     `1 </docs/2020/grades/1/>`_  `Initial </docs/2020/grades/1/>`_      Foundation    Assignment of variables, simple program control flow with basic types and data structures, basic I/O, informal documentation including comments in code and user focused requirements. May use block based coding. Basic use of the REPL.
-     `2 </docs/2020/grades/2/>`_  `Elementary </docs/2020/grades/2/>`_   Foundation    Must be text based coding only. Import third-party code, define and call simple functions, data validation/checking/handling, understands/uses AND/OR/NOT, a coherent understanding of program flow (for, if..elif, while), string operations, nested data structures, debugging strategies and a README.
-     `3 </docs/2020/grades/3/>`_  `Lower </docs/2020/grades/3/>`_        Core          Define and call complicated functions and create docstrings, use and knowledge of core data structures (dicts, lists, sets, bytes, strings), multi-file projects, exception handling, file system based operations (reading and writing files), simple HTTP requests, basic use of SCM (GIT), a docs to include supporting files.
-     `4 </docs/2020/grades/4/>`_  `Intermediate </docs/2020/grades/4/>`_ Core          Unit tests for user defined functions, a coherent understanding of types, an understanding of popular aspects of the standard library (os, sys, exceptions etc), limited use of builtins, list comprehensions / generator statements, demonstrates understanding / usage of the REPL and/or PDB, simple use of data storage.
-     `5 </docs/2020/grades/5/>`_  `Higher </docs/2020/grades/5/>`_       Core          Object orientation (creating / instantiating user define classes), data serialisation (JSON and CSV), context handlers, idiomatic use of truth and associated logical operators, use of logging, fluency with virtualenv and pip, demonstrates use of tools to help code quality (PEP8, PyFlakes, Coverage etc...), auto-generation of documentation (Sphinx).
-     `6 </docs/2020/grades/6/>`_  `Transitional </docs/2020/grades/6/>`_ Enhanced      Inheritance and mixins in OOP, function decorators, generator functions, use of third party frameworks to achieve ends, the project has an online presence (GitHub?), evidence of community related aspects of such (CoC, CONTRIBUTING etc), use of an issue tracker and comprehensive documentation.
-     `7 </docs/2020/grades/7/>`_  `Advanced </docs/2020/grades/7/>`_     Enhanced      Concurrency in Python (threading, multiprocessing, asyncio/await/async), basic networking, user interface design, heuristics and implementation, mocking and patching in tests, different test strategies (unit tests vs integration tests), project automation and expectations for community collaboration and leadership.
-     `8 </docs/2020/grades/8/>`_  `Final </docs/2020/grades/8/>`_        Enhanced      Use of __magic__ methods, understands Python protocols and can give examples of PEPs that define such, an understanding of lambda functions. Use of setup.py to put project on PyPI or other packaging option. Documentation on ReadTheDocs (or equivalent), project automation via CI (auto-run test suite on commit, build installers etc). Demonstrates respectful mentoring in a role of project leadership. Groks the Zen of Python.
-    ============================= ====================================== ============= ===========================
+    1/index.rst
+    1/*
+    2/index.rst
+    3/index.rst
+    4/index.rst
+    5/index.rst
+    6/index.rst
+    7/index.rst
+    8/index.rst

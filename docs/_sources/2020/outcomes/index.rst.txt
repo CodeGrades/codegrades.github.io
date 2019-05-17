@@ -1,6 +1,9 @@
 Outcomes
 ========
 
+.. contents::
+    :depth: 2
+
 CodeGrades has two broad aims:
 
 1. To bring about a technical culture that puts humans at its centre and 
