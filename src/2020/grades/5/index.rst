@@ -72,14 +72,19 @@ application of the following core concepts:
 Project
 -------
 
-At this stage code mentors expect candidates to show an appreciation of
-idiomatic Python. Furthermore candidates are expected to show reflection and
-judgement about the way they have chosen to implement their project (why did
-they choose this approach, rather than another?).
+Since grade 5 completes to core category of grades, code mentors will expect
+candidates to show an appropriate breadth of knowledge of all the core concepts
+covered so far with particular focus on the candidate's judgement and
+evaluation of how such concepts work together to create simple, effective and
+well maintained code. In other words, the core concepts covered so far have
+been integrated by the candidate, into a coherent and effective model of how
+different language features work and relate to each other. At this stage, the
+notion of "Pythonic" is not just implied, but explicit in the way the candidate
+explains how their code works and is expressed.
 
-An example project at this level is the following text based "Adventure Game"::
+An example project at this level is TO BE COMPLETED::
 
-   # Simple adventure game. 
+   # LINK TO CODE. 
 
 Take note that:
 
@@ -88,16 +93,20 @@ Take note that:
 Pairing Task
 ------------
 
-The pairing task in grade 3 may include bugs as encountered in grades 1 and 2.
-However, the task is presented in such a way to encourage the candidate to
+The task is presented in such a way to encourage the candidate to
 revise the code to add a new feature or capabilities and to refactor the code
 so it becomes easier to read, more efficient or more idiomatic.
+
+At grade 5 the unseen code WILL include core concepts up to and including
+those for grade five -- presented in such a way that an appreciation of how
+such concepts work together needs to be applied in order to refactor and/or
+revise the code..
 
 We also need to see evidence of competence using their coding environment of
 choice. At this level we expect to see them make appropriate use of the REPL
 and debugger.
 
-The candidate could use the `Mu Python code editor <https://codewith.mu/>`_ or
+The candidate should be moving away from beginner focused tools and make use of
 a coding environment of their choice to engage with the unseen fragment of
 code. The code will start with a comment describing the expected behaviour of
 the script. This should be read **carefully** since it will contain details of
@@ -110,5 +119,4 @@ encounter::
 
 Take note that:
 
-* The fragment is very short and simple (only thirteen lines of actual Python
-  -- if you discard comments and the fact that the list is over several lines).
+* COMMENTARY TO BE DONE.

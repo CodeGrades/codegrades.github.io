@@ -70,14 +70,23 @@ application of the following core concepts:
 Project
 -------
 
-At this stage code mentors expect candidates to show an appreciation of
-idiomatic Python. Furthermore candidates are expected to show reflection and
-judgement about the way they have chosen to implement their project (why did
-they choose this approach, rather than another?).
+Code mentors are expecting to see a project of some sophistication which
+addresses a non-trivial problem, requirement or group of users. The project
+will require evidence of depth of research, experimentation or user testing
+and will be presented in a competent and well organised manner (for instance,
+the project code is hosted online somewhere, and the documentation is
+both comprehensive and well written).
 
-An example project at this level is the following text based "Adventure Game"::
+Candidates are expected to demontrate self reflection and self evaluation
+when it comes to explaining their high level approach, as well as describe
+mistakes made, resulting adjustments and lessons learned. Of course, candidates
+will have no problem with a technical "deep dive" analysis of a specific aspect
+of their code in order to show their thinking about the implementation details
+and coding decisions made when creating the feature in question.
 
-   # Simple adventure game. 
+An example project at this level is TO BE DONE:: 
+
+   # LINK TO PROJECT
 
 Take note that:
 
@@ -86,27 +95,29 @@ Take note that:
 Pairing Task
 ------------
 
-The pairing task in grade 3 may include bugs as encountered in grades 1 and 2.
-However, the task is presented in such a way to encourage the candidate to
-revise the code to add a new feature or capabilities and to refactor the code
-so it becomes easier to read, more efficient or more idiomatic.
+At the enhanced level of grading candidates may encounter simple / trivial bugs
+as characterised by the work done in foundation grades. Furthermore, they will
+still be encouraged to revise and refactor code to enhance its capabilities or
+make it easier to read, more efficient or more idiomatic. However, they will be
+expected to add brand new features from scratch that appropriately fit within
+the multi-file code base's structure, stylistic conventions and expectations of
+code quality. For instance, their solution will include, if appropriate, unit
+tests, comments and documentation.
 
-We also need to see evidence of competence using their coding environment of
-choice. At this level we expect to see them make appropriate use of the REPL
-and debugger.
+Candidates will use a professional level coding environment, of their choice,
+to engage with the code. They may also use scripts, Makefiles and other project
+assets needed to fulfil code quality, test coverage or documentation related
+requirements.
 
-The candidate could use the `Mu Python code editor <https://codewith.mu/>`_ or
-a coding environment of their choice to engage with the unseen fragment of
-code. The code will start with a comment describing the expected behaviour of
-the script. This should be read **carefully** since it will contain details of
-how the code should be enhanced.
+The project will include a comment describing the expected behaviour of the new
+feature. This should be read **carefully** since it will contain details of
+how the code should be updated.
 
-The following is an example of the sort of script the candidate will
+The following is an example of the sort of project the candidate will
 encounter::
 
-    # Example
+    # Example TO BE DONE
 
 Take note that:
 
-* The fragment is very short and simple (only thirteen lines of actual Python
-  -- if you discard comments and the fact that the list is over several lines).
+* COMMENTARY TO BE DONE.

@@ -77,14 +77,17 @@ application of the following core concepts:
 Project
 -------
 
-At this stage code mentors expect candidates to show an appreciation of
-idiomatic Python. Furthermore candidates are expected to show reflection and
-judgement about the way they have chosen to implement their project (why did
-they choose this approach, rather than another?).
+In grade 4 code mentors will expect candidates to place their knowledge in
+context. For instance, rather than just explain a certain feature of the
+language, the candidate evaluates how applicable a feature might be to aspects
+of their problem and be able to explain how language features work together. In
+other words, the candidate is starting to get a sense of "Pythonic" --
+idiomatic use of the Python programming language as applied to specific tasks
+and problems.
 
-An example project at this level is the following text based "Adventure Game"::
+An example project at this level is (TO BE COMPLETED)::
 
-   # Simple adventure game. 
+   # LINK TO SOURCE CODE. 
 
 Take note that:
 
@@ -93,10 +96,14 @@ Take note that:
 Pairing Task
 ------------
 
-The pairing task in grade 3 may include bugs as encountered in grades 1 and 2.
-However, the task is presented in such a way to encourage the candidate to
-revise the code to add a new feature or capabilities and to refactor the code
-so it becomes easier to read, more efficient or more idiomatic.
+The pairing task in grade 4 may include bugs as encountered in the lower
+grades.  However, the task is presented in such a way to encourage the
+candidate to revise the code to add a new feature or capabilities and to
+refactor the code so it becomes easier to read, more efficient or more
+idiomatic.
+
+At grade 4 the unseen code may include core concepts up to and including
+those for grade four.
 
 We also need to see evidence of competence using their coding environment of
 choice. At this level we expect to see them make appropriate use of the REPL
@@ -111,9 +118,8 @@ how the code should be enhanced.
 The following is an example of the sort of script the candidate will
 encounter::
 
-    # Example
+    # Example TO BE DONE.
 
 Take note that:
 
-* The fragment is very short and simple (only thirteen lines of actual Python
-  -- if you discard comments and the fact that the list is over several lines).
+* TO BE DONE.

@@ -83,7 +83,8 @@ idiomatic Python. Furthermore candidates are expected to show reflection and
 judgement about the way they have chosen to implement their project (why did
 they choose this approach, rather than another?).
 
-An example project at this level is the following text based "Adventure Game"::
+An example project at this level is the following text based "Adventure Game"
+(to be completed later)::
 
    # Simple adventure game. 
 
@@ -112,9 +113,8 @@ how the code should be enhanced.
 The following is an example of the sort of script the candidate will
 encounter::
 
-    # Example
+    # Example to be completed later
 
 Take note that:
 
-* The fragment is very short and simple (only thirteen lines of actual Python
-  -- if you discard comments and the fact that the list is over several lines).
+* Commentary to be done.
