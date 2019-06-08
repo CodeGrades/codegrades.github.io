@@ -22,7 +22,7 @@ feedback and marks to help identify strengths and weaknesses.
 
 Each grade has three requirements:
 
-* A candidate must prepare a project or their own creation.
+* A candidate must prepare a programming project of their own creation.
 * A candidate should be familiar with and understand a set of core concepts for
   their grade and, where applicable and appropriate in their project,
   demonstrate such familiarity and understanding with working code.
@@ -78,9 +78,13 @@ code mentor:
   via conversation with the code mentor during or after the above two
   activities.
 
+Initially grading will take place via browser based video-conferencing software
+that allows the candidate to share their screen with the code mentor (and vice
+versa).
+
 While taking a grade will feel nerve-wracking for the candidate, we want to
 make it clear that it shouldn't be more frightening than having a friendly
-practical show and tell about code with a supportive professional programmer.
+practical show-and-tell about code, with a supportive professional programmer.
 We aim to make it a positive experience where candidates have an opportunity to
 show off their project with a view to getting contructive feedback from an
 expert.
@@ -137,12 +141,9 @@ pair-programming task that covers a requirement not demonstrated in the project
 or probe as-yet-unseen aspects of the candidate's skillset via questions.
 
 Grading takes place in time slots between 20 minutes (for grade 1) through to
-55 minutes (for grade 8) in length. The candidate will not be needed for the
+50 minutes (for grade 8) in length. The candidate will not be needed for the
 full duration of the time slot since the code mentor will use time at the end
 to write, collate and check their feedback.
-
-Initially grading will take place via video-conferencing software that allows
-the candidate to share their screen with the code mentor (and vice versa).
 
 Candidate Projects
 ------------------
@@ -224,7 +225,8 @@ mentor and to ask them questions (although the code mentor won't solve problems
 or explain code to the candidate).
 
 Candidates will be sat at a computer with the code mentor "looking over their
-shoulder" (in typical pair-programming style). Candidates will be given the
+shoulder" (in typical pair-programming style -- via screen sharing
+in the video-conferencing software). Candidates will be given the
 unseen code and, depending on the category of grading, required to engage with
 the code in certain ways. Candidates should talk out loud to explain their
 thought processes and to explain their approach to the code.
@@ -289,7 +291,6 @@ syllabus for each grade.
     :maxdepth: 2
 
     1/index.rst
-    1/*
     2/index.rst
     3/index.rst
     4/index.rst

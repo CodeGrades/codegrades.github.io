@@ -4,74 +4,98 @@ Mentors
 .. contents::
     :depth: 2
 
+"Code mentor" is the friendly name we use instead of "examiner".
+
+What?
+-----
+
+The primary role of the code mentor is to assess candidates by providing
+structured, supportive, positively framed yet honest and actionable feedback
+and critique on projects and pair programming tasks presented as part of the
+grading process.
+
+Code mentors are paid for their time in fulfilling this role. Candidates pay to
+take a grade, part of which goes to the mentor with the rest going to
+CodeGrades for two purposes: to pay for running CodeGrades and as a pool of
+money to support FLOSS projects, communities and infrastructure.
+
+Code mentors may also be involved in fostering learning and study
+groups in the wider community and will also be an invited to take part in
+writing / revising the CodeGrades syllabus. Again, CodeGrades will financially
+support such endeavours (under the "supporting FLOSS" banner).
+
+To be very clear, in addition to the educational aims of CodeGrades, another
+important aim is to become financially sustainable to be able to support and
+grow FLOSS projects.
+
+Who?
+----
+
 Code mentors are professional software developers with current industry
-knowledge and demonstrate both the technical expertise, pedagogical skill and
-people-management needed to be an effective code mentor. CodeGrades will favour
-developers who actively contribute to free / open source projects. Becoming a
-code mentor should be viewed as a special achievement.
+knowledge and who demonstrate technical expertise, pedagogical skill and
+supportive professionalism (the core skills needed to fulfil the role of an
+effective code mentor). CodeGrades will favour developers who actively
+contribute to free / open source projects.
 
-As such, we imagine four levels of code mentor (initially, only the first two
-will be used):
+Becoming a code mentor should be viewed as a special achievement, something to
+put on a CV and which folks may aspire to as a career aim.
 
-Apprentice Mentor
------------------
+Furthermore, should the CodeGrades experiment succeed, becoming a code mentor
+also means joining a professional support network of other folks who share a
+similar desire for personal development through supporting others in learning
+to write code.
 
-Candidates who would like to become fully-fledged code
-mentors but need to demonstrate the technical, pedagogical and
-people-management skills needed to fulfil the role. While an apprentice
-mentor we expect them to:
+How?
+----
 
-* Demonstrate the technical knowledge, experience and skill needed to fulfil
-  their role as a code mentor. This should be presented as evidence in the form
-  of code, community activity (talks, posters, group participation) and two
-  references from other professional developers.
-* Act as a teacher / facilitator for a group of learners
-  who successfully complete the requirements of a grading under the tutelage of
-  the apprentice mentor. This is to ensure the prospective code mentor has
-  experience of CodeGrades from the learner's point of view and has a chance to
-  practice the pedagogical and people skills needed to be an effective code
-  mentor. Feedback from the learners will be sought to check the apprentice
-  mentors suitability.
+Since CodeGrades is bootstrapping, becoming a CodeMentor will initially be
+an ad hoc "invite" based system which will include some provision of training
+concerning the processes, assessment criteria and expectations involved in
+taking part in a grading as a code mentor.
 
-During this time the candidate will be subject to the checks required for
-working with young people for their given locale (for example, in the UK we'd
-use the `DBS <https://www.gov.uk/government/organisations/disclosure-and-barring-service>`_).
+Eventually, becoming a code mentor will be a well trodden path, encompassing 
+carefully planned training based upon experience and reflections gained during
+the bootstrapping phase. However, this is a long way off.
 
-Code Mentor
------------
+Ultimately, we imagine four levels of code mentor:
 
-These are the professional software developers who meet learners in the grading
-process. They may, in addition, prepare learners for grading, although we'll
-take every effort to ensure learners are graded by code mentors they don't
-know. To be a code mentor means:
+* Apprentice mentor (someone learning to become a code mentor).
+* Code mentor (fulfilling and being paid for participation in grading described
+  above).
+* Tenured mentor (the same as a code mentor, but employed full-time by
+  CodeGrades and entailing further duties as part of their role as an employee
+  of CodeGrades -- if the experiment ever gets that far).
+* Distinguished mentor (a mentor recognised with such a title by their fellow
+  code mentors as a mark of respect for their efforts, support or
+  contributions).
 
-* You have the required criminal record checks for your locale in place (see
-  the section on DBS above).
-* You can give at least 1 week, but preferably 2 weeks or more of your time in
-  each year to take part in grading. Such blocks of time don't have to be
-  contiguous. Missing a week's block in a calendar year means removal from the
-  register of code mentors. A week means five working days. A working day means
-  roughly six hours of direct contact time with candidates.
-* You are paid a competetive salary for your mentoring during grading
-  (equivalent to a contractor day-rate in the mentor's locale).
-* You have a page on the CodeGrades website so your status as a code mentor can
-  be validated and, more importantly, celebrated and acknowledged.
+We want to foster a positive community that recognises and cherishes the
+achievements of others - and having non-hierarchical levels (defined in terms
+of *personal investment in the role of code mentor*) is one such mechanism.
 
-Senior Code Mentor
-------------------
+Why?
+----
 
-A senior code mentor is someone employed full time by CodeGrades. They will
-spend at least 60% of their time working as a code mentor or associated tasks
-(such as curriculum development, or supporting regular code mentors), with the
-remaining 40% of their time being their own for the purposes of development of
-free / open source software. How this time is split is negotiated on an
-individual basis -- for example, working 3 days a week may suit some, whereas
-others may want to work roughly two months "on" followed by one month "off".
+Code mentors fulfil three needs:
 
-Distinguished Code Mentor
--------------------------
+* They are trusted role models for beginner programmers. In this sense a code
+  mentor is promoting a certain programming culture and expectations of
+  behaviour.
+* By taking and achieving a grade a candidate is going through an initiation
+  into the "next level". The code mentor is the "wise elder" figure whose word
+  makes this happen. This is primarily to help address impostor syndrome: there
+  is evidence that an expert thinks you (the candidate) have attained the
+  skills and knowledge for "grade 5 Python" (for example). The validation comes
+  from a respected source of authority external to the candidate.
+* A code mentor applies their considerable technical skill and knowledge in
+  such a way to give meaningful feedback, constructive critique and actionable
+  suggestions relating to the evidence of attainment of candidates at different
+  levels of grading. The marking scheme allows mentors to indicate where
+  strengths and weaknesses may be for various attributes of coding attainment,
+  and also includes sections for *guided written feedback* so mentors express
+  specific feedback, support and advice relating to the individual candidate.
 
-A distinguished code mentor is simply a senior code mentor who the wider
-community of code mentors wish to recognise for their efforts, support or
-contributions. We want to foster a positive community that recognises the
-achievements of others - this is one such mechanism.
+It may also be helpful to explicitly state that the grading assessment is NOT
+a case of "I've reached level 42 in the Numberwang scale". Like a GPA or SAT
+score, this is meaningless, arbitrary and culturally toxic (the focus becomes
+the level, rather than what it takes to achieve such a level).
