@@ -14,7 +14,7 @@ Eight grades are organised into three categories:
 * Core (grades 3, 4 and 5) -- cover the core concepts associated with Python
   programming at a basic level.
 * Enhanced (grades 6, 7 and 8) -- revisit, extend and refine the core
-  concepts to reach a professional level at grade eight.
+  concepts to reach a professional level by grade eight.
 
 To pass a grade a candidate prepares for a "grading" where they present to a
 code mentor (a professional Python programmer) who will give supportive written
@@ -27,8 +27,8 @@ Each grade has three requirements:
   their grade and, where applicable and appropriate in their project,
   demonstrate such familiarity and understanding with working code.
 * A candidate should understand and have practiced for an "unseen code" task
-  where they will engage with the code mentor on a paired programming activity
-  using code unseen by the candidate.
+  where they will engage with the code mentor in a structured paired
+  programming activity.
 
 The Eight Grades
 ----------------
@@ -84,17 +84,17 @@ versa).
 
 While taking a grade will feel nerve-wracking for the candidate, we want to
 make it clear that it shouldn't be more frightening than having a friendly
-practical show-and-tell about code, with a supportive professional programmer.
+practical show-and-tell about code, with a supportive senior colleague.
 We aim to make it a positive experience where candidates have an opportunity to
 show off their project with a view to getting contructive feedback from an
 expert.
 
 At the end of the grade the code mentor writes a report with feedback and
 indications of how the candidate has got on (expressed as marks directly
-related to the syllabus for the grade taken). Candidates are marked out of 100,
-with 60 as the pass mark. A score of 75 or more means the award of a "pass with
-merit" and a score of 90 or more results in a prestigious "pass with
-distinction".
+related to attributes needed to be a successful and autonomous coder).
+Candidates are marked out of 100, with 60 as the pass mark. A score of 75 or
+more means the award of a "pass with merit" and a score of 90 or more results
+in a prestigious "pass with distinction".
 
 A pass means the candidate has demonstrated, understood and can apply the
 core requirements for that grade. A pass with merit means they were able to
@@ -111,7 +111,8 @@ specific areas for growth and development.
 
 Passing a grade is undeniable evidence that an expert programmer believes the
 candidate has attained the level of competence, knowledge and skill for the
-grade taken. Nobody can take that achievement away from the candidate.
+grade taken. Nobody can take that achievement away from the candidate. It is
+an acknowledgement and celebration of hard work and personal development.
 
 Assessment Criteria
 -------------------
@@ -130,9 +131,9 @@ The focus for grading is three-fold:
   software engineers.
 
 During grading, the code mentor follows a series of steps in a web app that
-keeps them consistent, allows them to quickly record their assessments, create
-a written report and ensures all the requirements for the current grade are
-checked.
+helps them remain consistent, allows them to quickly record their assessments,
+create a written report and ensures all the requirements for the current grade
+are checked.
 
 Not all the aspects of the requirements for a grade may be possible to
 demonstrate in a project. This is where the pair-programming task and
@@ -149,7 +150,7 @@ Candidate Projects
 ------------------
 
 First and foremost the project must originate from the candidate. If this is
-not the case, it is counted as cheating and the candidate will be disqualified
+not the case it is counted as cheating and the candidate will be disqualified
 with no refund.
 
 The project is a vehicle to demonstrate *appropriate* use of some (and not

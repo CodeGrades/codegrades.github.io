@@ -14,31 +14,31 @@ structured, supportive, positively framed yet honest and actionable feedback
 and critique on projects and pair programming tasks presented as part of the
 grading process.
 
-Code mentors are paid for their time in fulfilling this role. Candidates pay to
+Code mentors are paid for their time fulfilling this role. Candidates pay to
 take a grade, part of which goes to the mentor with the rest going to
 CodeGrades for two purposes: to pay for running CodeGrades and as a pool of
 money to support FLOSS projects, communities and infrastructure.
 
 Code mentors may also be involved in fostering learning and study
-groups in the wider community and will also be an invited to take part in
+groups in the wider community and will also be invited to take part in
 writing / revising the CodeGrades syllabus. Again, CodeGrades will financially
 support such endeavours (under the "supporting FLOSS" banner).
 
 To be very clear, in addition to the educational aims of CodeGrades, another
 important aim is to become financially sustainable to be able to support and
-grow FLOSS projects.
+grow FLOSS projects and invest in individuals who both mentor and contribute
+to the community.
 
 Who?
 ----
 
 Code mentors are professional software developers with current industry
 knowledge and who demonstrate technical expertise, pedagogical skill and
-supportive professionalism (the core skills needed to fulfil the role of an
-effective code mentor). CodeGrades will favour developers who actively
+supportive professionalism. CodeGrades will favour developers who actively
 contribute to free / open source projects.
 
 Becoming a code mentor should be viewed as a special achievement, something to
-put on a CV and which folks may aspire to as a career aim.
+put on a CV and which folks may aspire to as a career goal.
 
 Furthermore, should the CodeGrades experiment succeed, becoming a code mentor
 also means joining a professional support network of other folks who share a
@@ -55,7 +55,7 @@ taking part in a grading as a code mentor.
 
 Eventually, becoming a code mentor will be a well trodden path, encompassing 
 carefully planned training based upon experience and reflections gained during
-the bootstrapping phase. However, this is a long way off.
+the bootstrapping phase.
 
 Ultimately, we imagine four levels of code mentor:
 
@@ -67,7 +67,7 @@ Ultimately, we imagine four levels of code mentor:
   of CodeGrades -- if the experiment ever gets that far).
 * Distinguished mentor (a mentor recognised with such a title by their fellow
   code mentors as a mark of respect for their efforts, support or
-  contributions).
+  contributions to CodeGrades).
 
 We want to foster a positive community that recognises and cherishes the
 achievements of others - and having non-hierarchical levels (defined in terms
@@ -93,9 +93,15 @@ Code mentors fulfil three needs:
   levels of grading. The marking scheme allows mentors to indicate where
   strengths and weaknesses may be for various attributes of coding attainment,
   and also includes sections for *guided written feedback* so mentors express
-  specific feedback, support and advice relating to the individual candidate.
+  specific feedback, support and advice relating to the individual candidate
+  (a draft assessment form can be `found here <https://docs.google.com/forms/d/e/1FAIpQLSdzcWhB3NJLQF88h9w18lqizrwmY5QdG-O_B7qW02c4HtM0Lw/viewform>`_).
 
 It may also be helpful to explicitly state that the grading assessment is NOT
 a case of "I've reached level 42 in the Numberwang scale". Like a GPA or SAT
 score, this is meaningless, arbitrary and culturally toxic (the focus becomes
 the level, rather than what it takes to achieve such a level).
+
+Rather, grading assessment involves marks and statements to describe levels of
+attainment for specific attributes, along with personalised written feedback.
+The end result is meant to be a useful indication of strengths, weaknesses and
+an acknowledgement of accomplishments and potential for future growth.
