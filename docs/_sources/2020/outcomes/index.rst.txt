@@ -6,21 +6,14 @@ Outcomes
 
 CodeGrades has two broad aims:
 
-1. To bring about a technical culture that puts humans at its centre and 
-   values creativity, playful experimentation and the constant cultivation of
-   technical skill. We will achieve this through the educational activities
-   associated with taking code grades (syllabus development, facilitating
-   community based learning and celebrating the success of participants).
+1. To facilitate effective technical education, so learners gain the skills and
+   knowledge needed to control, adapt and improve the technology they own and
+   use.
+2. To financially support volunteer developers of free / open-source software
+   by paying them for mentorship activities (in the first instance, giving
+   structured constructive advice to learners).
 
-2. To provide a secure means of funding for volunteer developers of
-   free / open-source software. This will be achieved via the mentorship
-   programme where developers earn money for mentorship activities.
-   Furthermore, if a project is a major part of or contributor of resources to
-   CodeGrades, they will receieve financial support for their continued
-   development and support.
-
-CodeGrades will be a for-profit company run for community benefit (where the
-community are the learners and mentors).
+CodeGrades is a company run to sustainably support and advance these two aims.
 
 Education (Grades)
 ------------------
@@ -50,14 +43,16 @@ for growth, all within a supportive and relevant community.
 
 How does it work?
 
-1. Learn and prepare a grading project at the next appropriate level.
+1. Learn and prepare a grading project at the level of the grade for which
+   they're aiming.
 2. Book and pay for the grading when ready.
 3. Take part in a grading with a code mentor:
 
    a. Present the project.
    b. Pair program with the mentor on previously unseen code.
 
-4. Get written feedback, support and advice to improve.
+4. Get written feedback, support and advice to improve, along with
+   acknowledgement and recognition for attainment and work done so far.
 5. Goto 1.
 
 Details of the specific requirements for each grade can be
@@ -70,12 +65,12 @@ costs being swallowed by grading fees).
 Prices will be reduced for full-time students. There will be a financial
 support / fee waiver programme in place (for example, a young person in the UK
 who qualifies for free school meals, or a working age person in the UK claiming
-universal credit will qualify for *free* or much reduced grading costs). The
+universal credit will qualify for *free* or reduced grading costs). The
 important point is CodeGrades will move mountains so grading is available to
-everyone, no matter the financial context.
+everyone, no matter their financial situation.
 
 Even if every grade was taken at full price, the total cost would be a fraction
-of what the cost of a coding bootcamp or classes (and we expect many will
+of the cost of a coding bootcamp or classes (and we expect many will
 skip grades if they make good progress -- it's not mandatory to take all the
 previous grades before the one being taken).
 
@@ -84,8 +79,8 @@ Community Support (Mentors)
 
 Code mentors are experienced professional programmers who are at a stage in
 their career and professional and personal development where they are able to
-demonstrate the exceptional technical, social and pedagogical skills needed to
-mentor effectively.
+demonstrate the exceptional technical, leadership and pedagogical skills needed
+to mentor effectively.
 
 Becoming a mentor is a badge of merit that indicates a person is recognised as
 having the attributes of a highly effective and positive member of the software
@@ -95,8 +90,8 @@ role model for the sort of moral, professional and technical behaviour
 condusive to a robust, respectful, diverse and dynamic community of coders.
 
 The primary task of a mentor is to assess candidates at a grading. In doing so,
-they engage with, help (and are paid) to support their future colleagues,
-collaborators and users.
+they engage with, help and are paid to support their future colleagues,
+collaborators and users (the candidates).
 
 In addition to financial reward and professional recognition, becoming a code
 mentor comes with other benefits: it's a fun path for career development (for
@@ -105,12 +100,14 @@ to re-apply in the world of software development; being a code mentor is an
 opportunity to explore, develop and reflect upon such important skills).
 Furthermore, the wider body of code mentors is a latent pool of potential
 mutual professional support and networking which CodeGrades will want to
-foster, enable and nourish.
+foster, enable and nourish. This is a conscious effort to create a certain sort
+of "`scenius <https://www.wired.com/2008/06/scenius-or-comm/>`_.
 
-Since CodeGrades is run for community benefit we especially welcome members of
-the open-source community as mentors. It's hard to be financially recognised
-for open-source work, and mentoring is a way to help developers, who show
-leadership, skill and supportive professionalism, support their work.
+Since CodeGrades is run for sustainable support of free / open source software
+developers, we especially welcome members of these communities as mentors. It's
+hard to be financially recognised for such work, and mentoring is a way to help
+developers support their work whilst they also foster and develop such valuable
+traits as leadership, technical skill and supportive professionalism.
 
 Having said that, CodeGrades would welcome strong candidate mentors from all
 backgrounds (especially if they identify as coming from an under-represented
@@ -119,6 +116,7 @@ group in tech).
 Finally, mentors (since they are experienced professional programmers) are a
 source of feedback for the future development of the resources, curriculum and
 syllabus (along with teachers and learners). The key is finding and putting
-energy into self-reinforcing virtuous circles.
+energy into self-reinforcing virtuous circles to make this a sustainable
+endeavour.
 
 Learn more in the `section about code mentors </docs/2020/mentors/>`_.
