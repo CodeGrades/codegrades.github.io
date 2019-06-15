@@ -43,8 +43,8 @@ for growth, all within a supportive and relevant community.
 
 How does it work?
 
-1. Learn and prepare a grading project at the level of the grade for which
-   they're aiming.
+1. Prepare a project at the level of the grade for which the candidate is
+   aiming.
 2. Book and pay for the grading when ready.
 3. Take part in a grading with a code mentor:
 
@@ -62,7 +62,7 @@ Grades cost between c£80-£200 (depending on level, a similar price to music
 grades). All resources, tools, support, curriculum & syllabus are free (the
 costs being swallowed by grading fees).
 
-Prices will be reduced for full-time students. There will be a financial
+Prices will be reduced for full-time students. There will also be a financial
 support / fee waiver programme in place (for example, a young person in the UK
 who qualifies for free school meals, or a working age person in the UK claiming
 universal credit will qualify for *free* or reduced grading costs). The
@@ -91,7 +91,7 @@ condusive to a robust, respectful, diverse and dynamic community of coders.
 
 The primary task of a mentor is to assess candidates at a grading. In doing so,
 they engage with, help and are paid to support their future colleagues,
-collaborators and users (the candidates).
+collaborators and users (i.e. the candidates).
 
 In addition to financial reward and professional recognition, becoming a code
 mentor comes with other benefits: it's a fun path for career development (for
@@ -103,11 +103,11 @@ mutual professional support and networking which CodeGrades will want to
 foster, enable and nourish. This is a conscious effort to create a certain sort
 of "`scenius <https://www.wired.com/2008/06/scenius-or-comm/>`_.
 
-Since CodeGrades is run for sustainable support of free / open source software
+Since CodeGrades is run to sustainably support free / open source software
 developers, we especially welcome members of these communities as mentors. It's
 hard to be financially recognised for such work, and mentoring is a way to help
-developers support their work whilst they also foster and develop such valuable
-traits as leadership, technical skill and supportive professionalism.
+developers support their work whilst they also foster and develop valuable
+traits transferrable into their development work. 
 
 Having said that, CodeGrades would welcome strong candidate mentors from all
 backgrounds (especially if they identify as coming from an under-represented

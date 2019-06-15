@@ -197,7 +197,8 @@ When presenting a project candidates should address three areas:
   see the project run, or (depending on the nature of the project) may try to
   use the project themselves. Code mentors are looking at how well the
   project is presented as well as how successfully the project meets the needs
-  and motivations outlined by the candidate as part of the above point.
+  and motivations outlined by the candidate as part of the first point,
+  immediately above.
 * A walk through of the code. This simply involves showing and talking about
   the code for the project. It's an opportunity for candidates to point out
   particular challenges they were able to overcome in code, things which
@@ -226,11 +227,11 @@ mentor and to ask them questions (although the code mentor won't solve problems
 or explain code to the candidate).
 
 Candidates will be sat at a computer with the code mentor "looking over their
-shoulder" (in typical pair-programming style -- via screen sharing
-in the video-conferencing software). Candidates will be given the
-unseen code and, depending on the category of grading, required to engage with
-the code in certain ways. Candidates should talk out loud to explain their
-thought processes and to explain their approach to the code.
+shoulder" (in typical pair-programming style and in a virtual sense -- via
+screen sharing in the video-conferencing software). Candidates will be given
+the unseen code and, depending on the category of grading, required to engage
+with the code in certain ways. Candidates should *talk out loud* to explain
+their thought processes and to explain their approach to the code.
 
 The types of unseen coding tasks are:
 

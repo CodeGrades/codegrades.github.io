@@ -26,8 +26,8 @@ support such endeavours (under the "supporting FLOSS" banner).
 
 To be very clear, in addition to the educational aims of CodeGrades, another
 important aim is to become financially sustainable to be able to support and
-grow FLOSS projects and invest in individuals who both mentor and contribute
-to the community.
+grow FLOSS projects and invest in **individuals** who both mentor and
+contribute to the community.
 
 Who?
 ----
@@ -38,7 +38,7 @@ supportive professionalism. CodeGrades will favour developers who actively
 contribute to free / open source projects.
 
 Becoming a code mentor should be viewed as a special achievement, something to
-put on a CV and which folks may aspire to as a career goal.
+put on a CV and which folks may eventually aspire to as a career goal.
 
 Furthermore, should the CodeGrades experiment succeed, becoming a code mentor
 also means joining a professional support network of other folks who share a
@@ -57,7 +57,7 @@ Eventually, becoming a code mentor will be a well trodden path, encompassing
 carefully planned training based upon experience and reflections gained during
 the bootstrapping phase.
 
-Ultimately, we imagine four levels of code mentor:
+Ultimately, we imagine four types of code mentor:
 
 * Apprentice mentor (someone learning to become a code mentor).
 * Code mentor (fulfilling and being paid for participation in grading described
@@ -70,8 +70,9 @@ Ultimately, we imagine four levels of code mentor:
   contributions to CodeGrades).
 
 We want to foster a positive community that recognises and cherishes the
-achievements of others - and having non-hierarchical levels (defined in terms
-of *personal investment in the role of code mentor*) is one such mechanism.
+achievements of others - and having non-hierarchical types of mentor (defined
+in terms of *personal investment in the role of code mentor*) is one such
+mechanism.
 
 Why?
 ----
